@@ -28,6 +28,14 @@ The pipeline processes multi-minute audio files by slicing them into 5-second ch
 *   *Note: This script is heavily optimized using core mathematics and does **not** require the specialized MATLAB Audio Toolbox, preventing licensing errors during academic evaluation.*
 
 ## How to Run the Pipeline
+Click Run.
+
+Outputs
+Upon completion, the script automatically generates:
+
+FINAL_Production_Cleaned.wav: The fully processed, stitched, and amplified audio track.
+
+Visual Proof Dashboard: A 2x2 grid UI displaying side-by-side Waveforms (proving silence truncation) and Spectrograms (proving broadband noise elimination).
 
 1. Clone this repository and open the project folder in MATLAB.
 2. Ensure your noisy audio file (e.g., `.wav` or `.mp3`) and the trained AI model (`Final_Speech_Model.mat`) are in the current working directory.
